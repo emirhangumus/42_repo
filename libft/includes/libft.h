@@ -48,6 +48,7 @@ int ft_strncmp(const char *s1, const char *s2, size_t size);
 // ft_str
 void ft_putchar(char c);
 void ft_putstr(const char *s);
+void ft_putnstr(char const *s, int a);
 void ft_putendl(char *s);
 void ft_putnbr(int n);
 void ft_putchar_fd(char c, int fd);
